@@ -9,58 +9,51 @@
 
 > A curated list of awesome things related to Vue.js
 
-- [Resources](#resources)
-  - [Official Resources](#official-resources)
-  - [External Resources](#external-resources)
-  - [Job Portal](#job-portal)
-  - [Community](#community)
-  - [Conferences](#conferences)
-  - [Podcasts](#podcasts)
-  - [Youtube Channels](#youtube-channels)
-  - [Official Examples](#official-examples)
-  - [Tutorials](#tutorials)
-  - [Examples](#examples)
-  - [Books](#books)
-  - [Blog Posts](#blog-posts)
-- [Projects Using Vue.js](#projects-using-vuejs)
-  - [Open Source](#open-source)
-  - [Commercial Products](#commercial-products)
-  - [Apps/Websites](#appswebsites)
-  - [Interactive Experiences](#interactive-experiences)
-  - [Enterprise Usage](#enterprise-usage)
-  - [A11y](#a11y)
-- [Components & Libraries](#components--libraries)
-  - [UI Components](#ui-components)
-    - [Table](#table)
-    - [Notification](#notification)
-    - [Loader](#loader)
-      - [Progress Bar](#progress-bar)
-    - [Tooltip](#tooltip)
-    - [Overlay](#overlay)
-    - [Parallax](#parallax)
-    - [Icons](#icons)
-    - [Menu](#menu)
-    
-    - [Minus Plus Input](#minus-plus-input)
-    - [Carousel](#carousel)
-    - [Charts](#charts)
-    - [Time](#time)
-    - [Calendar](#calendar)
-    - [Map](#map)
-    - [Audio / Video](#audio--video)
-    - [Infinite Scroll](#infinite-scroll)
-    - [Pull-to-refresh](#pull-to-refresh)
-    - [Markdown](#markdown)
-    - [PDF](#pdf)
-    - [Tree](#tree)
-    - [Social Sharing](#social-sharing)
-    - [QR Code](#qr-code)
-    - [Search](#search)
-    - [Miscellaneous](#miscellaneous)
-    - [Tabs](#tabs)
-    - [Form](#form)
-      - [Phone Number Input](#phone-number-input-formatter)
-      - [Picker](#picker)
+- [资源汇总](#resources)
+  - [官方资源](#official-resources)
+  - [外部资源](#external-resources)
+  - [社区入口](#community)
+  - [官方示例](#official-examples)
+  - [教程](#tutorials)
+  - [实例](#examples)
+  - [书籍](#books)
+  - [博客帖子](#blog-posts)
+- [使用Vue.js的项目](#projects-using-vuejs)
+  - [开源项目](#open-source)
+  - [商业产品](#commercial-products)
+  - [应用程序/网站](#appswebsites)
+- [组件 & 资料](#components--libraries)
+  - [UI组件库](#ui-components)
+    - [Table:表格](#table)
+    - [Notification:通知](#notification)
+    - [Loader:载入](#loader)
+      - [Progress Bar:进度条](#progress-bar)
+    - [Tooltip:提示框](#tooltip)
+    - [Overlay:覆盖层](#overlay)
+    - [Parallax:视差](#parallax)
+    - [Icons:图标](#icons)
+    - [Menu:菜单](#menu)
+
+    - [Minus Plus Input:加减输入框](#minus-plus-input)
+    - [Carousel:旋转木马](#carousel)
+    - [Charts:图表](#charts)
+    - [Time:时间](#time)
+    - [Calendar:日历](#calendar)
+    - [Map:地图](#map)
+    - [Audio/Video:音频视频](#audio--video)
+    - [Infinite Scroll:无限滚动加载](#infinite-scroll)
+    - [Pull-to-refresh:下拉刷新](#pull-to-refresh)
+    - [Markdown:富文本编辑器](#markdown)
+    - [PDF:PDF处理](#pdf)
+    - [Tree:树状结构](#tree)
+    - [Social Sharing:分享组件](#social-sharing)
+    - [QR Code:二维码生成](#qr-code)
+    - [Search:搜索组件](#search)
+    - [Miscellaneous:其他组件](#miscellaneous)
+    - [Tabs:选项卡](#tabs)
+    - [Form:表单](#form)
+      - [Phone Number Input:电话号码输入](#phone-number-input-formatter)
+      - [Picker:滑动选择](#picker)
       - [Generator](#generator)
         - [Date Picker](#date-picker)
       - [Select](#select)
@@ -202,12 +195,6 @@
 - [VueDose](https://vuedose.tips). Tips & tricks about the Vue ecosystem, for busy devs.
 - [Vuelibs](https://vuelibs.org). A minimalistic list of Vue.js libraries and components based on the awesome-vue repo.
 
-
-### Job Portal
-
-- [Vue.js Jobs - VueJobs](https://vuejobs.com/) - A Vue.js job portal to hire or get hired for all your Vue.js jobs.
-- [Vue.js Interview Questions](https://github.com/sudheerj/vuejs-interview-questions) - A List of 300 VueJS Interview Questions and Answers
-
 ### Community
 
 - [Twitter](https://twitter.com/vuejs)
@@ -233,38 +220,6 @@
 - [VueJS Vix - Meetup Page [Portuguese]](https://www.meetup.com/pt-BR/Vue-js-in-Vix/)
 - [VueJS Norway - Meetup](https://www.meetup.com/VueJS-Oslo/)
 - [VueJS Israel 🇮🇱 - Facebook Page](https://www.facebook.com/officalVuejsIsrael/)
-
-### Conferences
-
-- [VueConf](http://conf.vuejs.org)
-- [Vue.js London](http://vuejs.london)
-- [VueConf US](http://vueconf.us)
-
-### Podcasts
-
-- [Full Stack Radio #30 (11-23-2015)](http://www.fullstackradio.com/30)
-- [JavaScript Jabber #187 (11-25-2015)](https://devchat.tv/js-jabber/187-jsj-vue-js-with-evan-you)
-- [Changelog #184 (11-27-2015)](https://changelog.com/184/)
-- [Software Engineering Daily (12-29-2015)](http://softwareengineeringdaily.com/2015/12/29/front-end-javascript-with-evan-you/)
-- [JavaScript Air 016 (03-30-2016)](https://javascriptair.com/episodes/2016-03-30/)
-- [Codecasts #2 - Falando Sobre Vuejs e Web Components (2016-08-19) [pt-BR]](https://soundcloud.com/codecasts/2-falando-sobre-vuejs-e-web-components)
-- [Full Stack Radio #50 (09-21-2016)](http://www.fullstackradio.com/50)
-- [和 Vue.js 框架的作者聊聊前端框架开发背后的故事 [zh-CN]](http://teahour.fm/2015/08/16/vuejs-creator-evan-you.html)
-- [MW S04E08 - Vue.js with Evan You and Sarah Drasner (04-27-2017)](https://modernweb.podbean.com/e/mw-s04e09-evan-yu-sarah-drasner/)
-- [Request For Commits #12 - Crowdfunding Open Source (Vue.js) (06-15-2017)](https://changelog.com/rfc/12)
-- [The Web Platform Podcast 132: Vue.js (07-27-2017)](http://thewebplatformpodcast.com/132-vuejs)
-- [JavaScript Jabber #276 with Maximilian Schwarzmüller (08-29-2017)](https://devchat.tv/js-jabber/jsj-276-vue-js-maximilian-schwarzmuller)
-- [Animating VueJS with Sarah Drasner(Software Engineering Daily 01-12-2017)](https://softwareengineeringdaily.com/2017/12/01/animating-vuejs-with-sarah-drasner/)
-- [Views on Vue (weekly podcast on Vue started 03-06-2018)](https://devchat.tv/views-on-vue)
-- [The Official Vue.js News Podcast](https://news.vuejs.org/)
-- [Vue podcast list via The QIT Tech Podcast Indexer](https://qit.cloud/search/vue)
-- [DNE 138 - Vale a pena VueJS? (01-05-2018)](https://devnaestrada.com.br/2018/01/05/vale-pena-vuejs.html)
-- [Cynical Developer #99 (10-15-2018)](https://cynicaldeveloper.com/podcast/99/)
-- [Syntax #130 (03-27-2019)](https://syntax.fm/show/130/the-vuejs-show-scott-teaches-wes)
-
-### Youtube Channels
- - [VueNYC](https://www.youtube.com/vuenyc)
- - [VueConf EU](https://www.youtube.com/channel/UC9dJjbYeXjirDYYVfUD3bSw)
 
 ### Official Examples
 
@@ -927,71 +882,15 @@
   - [Monocle Reader](https://monoclereader.com/) - Follow feeds, Twitter, YouTube, Blogs and everything else, all in one place.
   - [前站导航](https://www.frontendjs.com/) - 前端社区、文档收录.
   - [Geenes](https://geenes.app) - Generate and apply color palettes to your UI, then export it to sketch or code.
-  - [Blurrish](http://blurrish.cognitusapps.com/) - Encrypted Morning Pages journal for Mac/Windows, built with Vue and Electron. Blurs as you write so you can journal in public workspaces. 
+  - [Blurrish](http://blurrish.cognitusapps.com/) - Encrypted Morning Pages journal for Mac/Windows, built with Vue and Electron. Blurs as you write so you can journal in public workspaces.
   - [ExifShot](https://exifshot.com/) - What and how on photography, beautifully.
   - [Studolog](https://studolog.com/) - Online file sharing platform for students, including tester and reviews. Currently in Czech 🇨🇿 only.
 
-### Interactive Experiences
-
- - [Jean-Pierre Morin | 1700 LAPOSTE](http://1700laposte.com/jean-pierre-morin/)
- - [Facebook NewsFeed](https://newsfeed.fb.com/)
- - [YouTube AdBlitz 2016](https://adblitz.withyoutube.com/#!/advertisers)
- - [Omnisense Experience](http://omnisense.net)
- - [Louis Ansa Website (portfolio)](http://louisansa.com)
- - [Djeco.com](http://www.djeco.com/en)
- - [Tolks.io](https://tolks.io)
- - [Meet Graham](http://www.meetgraham.com.au)
- - [NOIZE original](http://noizeoriginal.com)
- - [TR-101 Synth Drum Machine](https://inverted3.gitlab.io/drum-machine)
- - [Bootstrap 4 Editor](http://www.itwonders-web.com/bootstrap4-editor/)
- - [Subtletab - Browser Extension](https://subtletab.com)
- - [web-riimote](https://web-riimote.herokuapp.com) - Turn your smartphone into a 3D controller ([source code](https://github.com/konaraddio/web-riimote))
- - [CSS ColorVars](https://csscolorvars.github.io/) - Interactive tool code generation ([source code](https://github.com/CSSColorVars/csscolorvars))
-### Enterprise Usage
-
- - Alibaba
- - Baidu
- - Sina Weibo
- - Xiaomi
- - Ele.me
- - Optimizely
- - Expedia
- - UCWeb
- - Line
- - Nintendo
- - Celtra
- - [Sainsbury's](https://sainsburys.jobs/)
- - [AREX](https://arex.io/)
- - DJI
- - Octimine GmbH
- - Hunliji
- - [GitLab](https://about.gitlab.com/2016/10/20/why-we-chose-vue/)
- - [Clemenger BBDO Melbourne](http://clemengerbbdo.com.au)
- - [ZenMate](https://zenmate.com)
- - [Codeship](https://blog.codeship.com/consider-vuejs-next-web-project/)
- - [Storyblok](https://app.storyblok.com)
- - [Monito](https://www.monito.com) - Building the Booking.com for international money transfers
- - [Hypefactors](https://hypefactors.com) - Software for data-driven PR professionals
- - Adobe
- - IBM
- - [Cotabox](https://cotabox.com.br)
-
-### A11y
-
-- [Vue A11y project](https://github.com/vue-a11y) - Vue.js community project to improve web accessibility.
-- [vue-skip-to](https://github.com/vue-a11y/vue-skip-to) - It helps people who only use the keyboard to jump to what matters most.
-- [vue-axe](https://github.com/vue-a11y/vue-axe) - Accessibility auditing for Vue.js applications.
-- [vue-announcer](https://github.com/vue-a11y/vue-announcer) - A simple way with Vue to announce any useful information for screen readers.
-- [eslint-plugin-vue-a11y](https://github.com/maranran/eslint-plugin-vue-a11y) - Static AST checker for accessibility rules on elements in .vue
-- [vue-focus-lock](https://github.com/theKashey/vue-focus-lock) - It is a trap! A lock for a Focus. A11y util for scoping a focus.
-- [vue-a11y-calendar](https://github.com/IBM/vue-a11y-calendar) - Accessible, internationalized Vue calendar.
-
 # Components & Libraries
-
 
 ## UI Components
 
-### Table
+### Table：表格
 
 *Tables / data grids*
 
@@ -1034,7 +933,7 @@
  - [vuejs-smart-table](https://github.com/tochoromero/vuejs-smart-table) - Straight Forward Table Component using the vanilla HTML Table Structure with Sorting, Filtering, Pagination and Selection out of the box.
  - [@myena/vue-table](https://github.com/myENA/vue-table) - Table Components for Client/Server data handling. Filter, sort, paginate, group, expanding details row. Highly customizible via slots for filter, headers, column, pagination, details row.
 
-### Notification
+### Notification：通知
 
 *Toaster / snackbar — Notify the user with a modeless temporary little popup*
 
@@ -1063,7 +962,7 @@
  - [v-tostini](https://github.com/marverix/v-tostini) - Really plain toast notifications mechanism for Vue.js 2.x. No CSS included.
 
 
-### Loader
+### Loader：载入
 
 *Loaders / spinners / progress bars — Let the user know that something is loading*
 
@@ -1086,7 +985,7 @@
  - [vue-progress-bar](https://github.com/Yangfan2016/vue-yan-progress) - This is a cascading progress bar plugin based on vue
  - [vue-loading-button](https://github.com/shwilliam/vue-loading-button) - 👇 Straightforward button with slideout loading indicator
 
-#### Progress Bar
+#### Progress Bar：进度条
 
 *A slim progress bar at the top of the page*
 
@@ -1100,7 +999,7 @@
  - [vue-scroll-progress](https://github.com/spemer/vue-scroll-progress) - Simple Vue.js plugin for page scroll progress bar
  - [vue-read-progress](https://github.com/ajerez/vue-read-progress) - Customizable progress bar at the top of the page that shows the scroll progress
 
-### Tooltip
+### Tooltip：提示层
 
 Tooltips / popovers
 
@@ -1110,7 +1009,7 @@ Tooltips / popovers
  - [vue-popperjs](https://github.com/RobinCK/vue-popper) - VueJS 2.x popover component based [popper.js](https://popper.js.org/)
  - [vue-tooltipster](https://github.com/cpfarher/vue-tooltipster) - VueJS 2.x tooltip component based [tooltipster.js](http://iamceege.github.io/tooltipster/). Support html content, hover and hover+click events.
 
-### Overlay
+### Overlay：覆盖层
 
 *Overlay / modal / alert / dialog / lightbox / popup*
 
@@ -1148,14 +1047,14 @@ Tooltips / popovers
 - [vue-topmodal](https://github.com/adileo/vue-topmodal) - A fully customisable, easy to use, Vue.js modal component. (Responsive, Stackable, Scrollable, Animated)
 - [vue-modal 🖼](https://github.com/MelMacaluso/vue-modal) - Feed your objects array for multiple switchable modal content or quickly inline your content. A fully customisable vue modal component .
 
-### Parallax
+### Parallax：视差
 
  - [vue-parallax](https://github.com/vue-comps/vue-parallax) - Scrolls an image slower than the window to create a neat optical effect.
  - [vue-parallaxy](https://github.com/apertureless/vue-parallax) - Vue.js component for parallax image scroll effects.
  - [vue-mouse-parallax](https://github.com/Aminerman/vue-mouse-parallax) - A simple to use Mouse Parallax Component - Made with Vue.js
  - [vue-parallax-js](https://github.com/jsnanigans/vue-parallax-js) - Tiny vue component that adds a directive for parallax effect on elements.
 
-### Icons
+### Icons：图标
 
  - [vue-awesome](https://github.com/Justineo/vue-awesome) - Font Awesome component for Vue.js, using inline SVG.
  - [vue-material-design-icons](https://gitlab.com/robcresswell/vue-material-design-icons "vue-material-design-icons on GitLab") - A collection of SVG Material Design icons as single file components.
@@ -1175,7 +1074,7 @@ Tooltips / popovers
  - [vue-fa](https://github.com/Cweili/vue-fa) - Simple FontAwesome 5 Vue.js 2 component.
  - [vue-cryptoicon](https://github.com/man15h/vue-cryptoicon) - Beautiful pixel perfect 400+ cryptocurrency and 10+ Fiat currency icon.
 
-### Menu
+### Menu：菜单
 
  - [vue-accordion](https://github.com/zeratulmdq/vue-accordion) - Simple accordion nav menu component for Vue.js.
  - [vue-js-dropdown](https://github.com/euvl/vue-js-dropdown) - Vue.js 2 dropdown menu component. Light, easy to use and extend, no external deps.
@@ -1193,13 +1092,13 @@ Tooltips / popovers
  - [vue-dynamic-dropdown](https://github.com/JonathanDn/vue-dropdown) - A Highly Customizable, easy-to-use elegant dropdown component
  - [vue-navigation-bar](https://github.com/johndatserakis/vue-navigation-bar) - A simple, pretty navbar for your Vue projects.
 
-### Minus Plus Input
+### Minus Plus Input：加减输入框
 
  - [minus-plus-input](https://github.com/manju16832003/v-minusplusinput) - A number input with plus minus; included for Vue.js v1 and v2.
  - [vue-integer-plusminus](https://github.com/Keiwen/vue-integer-plusminus) - Integer input with increment and decrement buttons for vue 2.
  - [vue-numeric-input](https://github.com/JayeshLab/vue-numeric-input) - Number input component with controls.
 
-### Carousel
+### Carousel：木马旋转
 
  - [vue-easy-slider](https://github.com/shhdgit/vue-easy-slider) - Slider Component of Vue.js.
  - [vue-l-carousel](https://github.com/lsycxyj/vue-l-carousel) - A responsive carousel(namely slider or swiper) component for Vue.js v2.x+.
@@ -1223,7 +1122,7 @@ Tooltips / popovers
  - [Hooper](https://github.com/baianat/hooper) - Customizable accessible carousel slider optimized for Vue
 
 
-### Charts
+### Charts：图表
 
  - [vue-morris](https://github.com/bbonnin/vue-morris) - VueJS component wrapping Morris.js.
  - [vue-charts](https://github.com/haydenbbickerton/vue-charts) - Google Charts plugin for Vue.js.
@@ -1257,10 +1156,10 @@ Tooltips / popovers
  - [vue-trend-chart](https://github.com/dmtrbrl/vue-trend-chart) - Simple trend charts for Vue.js
  - [vueplotlib](https://github.com/keller-mark/vueplotlib) - Declarative, interactive, linked plot components
  - [vgauge](https://github.com/amroessam/vgauge) - A Vue Wrapper to GaugeJS - Create beautiful gauges
- - [vue-plotly](https://github.com/David-Desmaisons/vue-plotly) - Wrapper for [plotly.js](https://plot.ly/javascript/) declarative charting library that ships with 20 chart types, including 3D charts, statistical graphs, and SVG maps. 
+ - [vue-plotly](https://github.com/David-Desmaisons/vue-plotly) - Wrapper for [plotly.js](https://plot.ly/javascript/) declarative charting library that ships with 20 chart types, including 3D charts, statistical graphs, and SVG maps.
  - [vue-funnel-graph-js](https://github.com/greghub/vue-funnel-graph-js) - Funnel graph drawing library for Vue.js. Create vertical and horizontal animated SVG funnel charts and add labels, values, legend and other info.
 
-### Time
+### Time：时间处理
 
 *Display time / date / age*
 
@@ -1276,7 +1175,7 @@ Tooltips / popovers
  - [vue-clock2](https://github.com/bestvist/vue-clock2) - Display clock component for Vue.
  - [vuemodoro](https://github.com/P3trur0/vuemodoro) - Pomodoro timer as single file Vue component.
 
-### Calendar
+### Calendar：日历组件
 
 *Display non-editable events in a Calendar*
 
@@ -1306,7 +1205,7 @@ Tooltips / popovers
  - [vue-material-year-calendar](https://github.com/nono1526/vue-material-year-calendar) -  A full year (12 months on a page) calendar for Vue2. Uses dayjs.
  - [vuelendar](https://github.com/codesthq/vuelendar) - Simple and clean calendar written in VueJS
 
-### Map
+### Map：地图处理
 
  - [vue2-google-maps](https://github.com/xkjyeah/vue-google-maps) - Google maps component for vue with 2-way data binding.
  - [vue2-leaflet](https://github.com/KoRiGaN/Vue2Leaflet) - Vue 2 components for Leaflet maps.
@@ -1319,7 +1218,7 @@ Tooltips / popovers
  - [vue-static-map](https://github.com/eperedo/vue-static-map) - Vue 2.x simple component to generate an static google map
  - [vue-mapbox](https://github.com/soal/vue-mapbox) - Vue 2.x wrapper around Mapbox GL JS library that provides vueish-way to interact with the map.
 
-### Audio / Video
+### Audio/Video：音频视频
 
  - [Vue-APlayer](https://github.com/SevenOutman/vue-aplayer) - :cake: Easy-to-config music player for Vue 2.x.
  - [vue-audio](https://github.com/shershen08/vuejs-sound-player) - audio-tag wrapper; sound player component for Vue 2.x
@@ -1331,7 +1230,7 @@ Tooltips / popovers
  - [v-playback](https://github.com/TerryZ/v-playback) - A Vue2 plugin to make video play easier.
  - [vue-audio-recorder](https://github.com/grishkovelli/vue-audio-recorder) - Audio recorder for Vue.js. It allows to create, play, download and store records on a server
 
-### Infinite Scroll
+### Infinite Scroll：无限滚动加载
 
  - [vue-infinite-loading](https://github.com/PeachScript/vue-infinite-loading) - An infinite scroll plugin for Vue.js 1.0 & Vue.js 2.0.
  - [vue-mugen-scroll](https://github.com/egoist/vue-mugen-scroll) - Infinite scroll component for Vue.js 2.
@@ -1342,13 +1241,13 @@ Tooltips / popovers
  - [vue-infinite-slide-bar](https://github.com/biigpongsatorn/vue-infinite-slide-bar) - ∞ Infinite slide bar component.
  - [vue-virtual-infinite-scroll](https://github.com/zuolei828/vue-virtual-infinite-scroll) - A vue2 component based on Iscroll, supports big data list with high performance scroll, infinite load and pull refresh.
 
-### Pull-to-refresh
+### Pull-to-refresh：下拉加载
  - [vue-pull-refresh](https://github.com/lakb248/vue-pull-refresh) - A pull to refresh component for Vue.js 2.0.
  - [vue-pull-to](https://github.com/stackjie/vue-pull-to) - A pull-down refresh and pull-up load more and infinite scroll for Vue.js component.
  - [vue-data-loading](https://github.com/bedlate/vue-data-loading) - Another component for infinite scroll and pull down/up to load data.
  - [vue-quick-loadmore](https://github.com/duyanpeng/vue-quick-loadmore) - A pull-down refresh and pull-up infinite scroll plugin for Vue.
 
-### Markdown
+### Markdown：富文本编辑器
 
  - [vue-markdown](https://github.com/miaolz123/vue-markdown) - A Powerful and Highspeed Markdown Parser for Vue.
  - [vue-mavonEditor](https://github.com/hinesboy/mavonEditor) - A markdown editor based on Vue that supports a variety of personalized features.
@@ -1356,12 +1255,12 @@ Tooltips / popovers
  - [vue-simplemde](https://github.com/F-loat/vue-simplemde) - A wrapper around [simplemde](https://github.com/sparksuite/simplemde-markdown-editor). Delightful editing for beginners and experts alike. Features built-in autosaving and spell checking.
  - [toast-ui.vue-editor](https://github.com/nhnent/toast-ui.vue-editor) - Vue Wrapper for [TOAST UI Editor](http://ui.toast.com/tui-editor).
 
-### PDF
+### PDF：PDF处理
 
  - [vue-pdf](https://github.com/FranckFreiburger/vue-pdf) - A pdf viewer based on mozilla's PDF.js
  - [pdfvuer](https://github.com/arkokoley/pdfvuer) - A PDF viewer for Vue using Mozilla's PDF.js with text support. [Demo](https://blog.koley.in/pdfvuer/)
 
-### Tree
+### Tree：树状结构
 
  - [Vue.D3.tree](https://github.com/David-Desmaisons/Vue.D3.tree) - A Tree View based on [D3.js](https://d3js.org/)
  - [vue-json-tree-view](https://github.com/arvidkahl/vue-json-tree-view) - A JSON Tree View Component for Vue.js.
@@ -1378,7 +1277,7 @@ Tooltips / popovers
  - [vue-json-component](https://github.com/tylerkrupicka/vue-json-component) - JSON tree view with no dependencies, TypeScript support, and easy customization.
  - [vue-tree-list](https://github.com/ParadeTo/vue-tree-list) - A vue component for tree structure
 
-### Social Sharing
+### Social Sharing：分享组件
 
  - [vue-social-sharing](https://github.com/nicolasbeauvais/vue-social-sharing) - A Vue.js component for sharing links to social networks, work with Vue.js 1.X or 2.X.
  - [vue-goodshare](https://github.com/koddr/vue-goodshare) - Vue.js component for social share with beautiful button design. Simple install, extensive documentation, developer support, SEO friendly, clean code without scripts tracking user activity on the page, high speed. Work with Vue.js 2.x.
@@ -1387,13 +1286,13 @@ Tooltips / popovers
  - [vue-twitter](https://github.com/chiaweilee/vue-twitter) - A Vue.js component for embed twitter widgets (e.g timeline, buttons)
  - [vue-share-buttons](https://github.com/Alexandrshy/vue-share-buttons) - Vue.js component for placing buttons in your project using which you can share anything
 
-### QR Code
+### QR Code：二维码生成
 
  - [vue-qriously](https://github.com/theomessin/vue-qriously) - A Vue.js 2 component to draw QR codes on an HTML Canvas using qrious.
  - [vue-qart](https://github.com/superman66/vue-qart) - The directive of vue 2.x for qart.js.
  - [vue-qrcode-reader](https://github.com/gruhn/vue-qrcode-reader) - A Vue.js 2 component which detects and decodes QR codes from a camera stream.
 
-### Search
+### Search：搜索组件
  - [vue-fuse](https://github.com/shayneo/vue-fuse) - A lightweight plugin for fuzzy search library, Fuse.js
  - [vue-instantsearch](https://community.algolia.com/vue-instantsearch/) - The ultimate toolbox for creating instant-search experiences using [Algolia](https://www.algolia.com/).
  - [vue-innersearch](https://github.com/InnerSearch/vue-innersearch) - A Vue.js wrapper for Elasticsearch
@@ -1496,7 +1395,7 @@ Tooltips / popovers
 - [vue-fixed-header](https://github.com/potato4d/vue-fixed-header)
  - Simple and cross-browser friendly fixed header component for Vue.js written by TypeScript.
 
-### Tabs
+### Tabs：选项卡
 
  - [vue-tabs](https://github.com/cristijora/vue-tabs) - Simple tabs and pills.
  - [vue-swipe-tabs](https://github.com/zhangxiang958/vue-tab) - A touch swipe tab component for vue.js(vue2).
@@ -1504,7 +1403,7 @@ Tooltips / popovers
  - [vue-k-tabs](https://github.com/kevindesousa/vue-k-tabs) - A simple tabs components with Gitlab design.
  - [vue-tabs-with-active-line](https://github.com/karambafe/vue-tabs-with-active-line) - Simple Vue 2 component, that allows you to make tabs with moving bottom line
 
-### Form
+### Form：表单
 
 *Let the user create & edit data*
 
@@ -2399,7 +2298,7 @@ the amazing Vue.js.
  - [vuex-pagination](https://github.com/cyon/vuex-pagination) - Easily work with paginated resources in your Vue/Vuex application. Works well with most of the Vue pagination components.
  - [vuex-easy-firestore](https://mesqueeb.github.io/vuex-easy-firestore/) - Easy coupling of Firebase Cloud Firestore and Vuex. 2-way sync with 0 boilerplate!
  - [vuex-listener](https://github.com/TimurKiyivinski/vuex-listener) - A global Vuex action and mutation listener plugin
- - [jsonapi-vuex](https://github.com/mrichar1/jsonapi-vuex) - Use a JSONAPI api with a Vuex store, with client-side restructuring/normalization of records. 
+ - [jsonapi-vuex](https://github.com/mrichar1/jsonapi-vuex) - Use a JSONAPI api with a Vuex store, with client-side restructuring/normalization of records.
 
 ###### Sync Between Tabs
 
@@ -2745,7 +2644,7 @@ Payment utilities.
  - [vue-lib-template](https://github.com/biigpongsatorn/vue-lib-template) - 🛠 A simple template for building and publishing Vue component/library as a opensource.
  - [Awesome Vue Boilerplate](https://github.com/NarHakobyan/awesome-vue-boilerplate) - 😍 Awesome Vue, 🥰 Vuex, Vuex-pathify, element-ui, tailwindcss
  - [ScaffoldHub.io](https://scaffoldhub.io) - Generate full Vue applications with SQL, MongoDB or Firebase Firestore databases.
- - [VuePlay](https://christiankienle.github.io/vueplay/) - Generate disposable Vue playgrounds in seconds. Allows you to test things quickly. 
+ - [VuePlay](https://christiankienle.github.io/vueplay/) - Generate disposable Vue playgrounds in seconds. Allows you to test things quickly.
 
 ### Client
 
